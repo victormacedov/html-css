@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px) " srcset="imagens/foto-m.png">
+        <img src=" imagens/foto-g.png " alt="Foto G ">
+    </picture>
+    <h1>Adicionando música no meu site</h1>
+    <p>&downarrow; Michael Jackson - Billie Jean &downarrow;</p>
+    <audio preload="metadata" controls>
+        <source src="midia/Billie Jean.mp3" type="audio/mpeg">
+        <source src="midia/Billie Jean ogg.ogg" type="audio/ogg">
+        <source src="midia/Billie Jean wav.wav" type="audio/wav">
+        <p>Infelizmente seu arquivo não consegue reproduzir no navegador. <a href="midia/Billie Jean.mp3">CLIQUE AQUI</a> e faça o download.</p>
+    </audio>
+    <!--MP3 (audio/mpeg), WAV(audio/wav), OGG(audio/ogg)-->
+</body>
+
+</html>

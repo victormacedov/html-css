@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        mark {
+            background-color: deepskyblue;
+        }
+    </style>
+    <title>Formatação de textos</title>
+</head>
+
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Maneira não semantica:</p>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B</p>
+    <p>Maneira semantica:</p>
+    <p>Nessa frase tenho um <strong>termo em destaque</strong> usando a tag STRONG</p>
+    <h2>Itálico/Ênfase</h2>
+    <p>Nessa frase, temos um <i>termo em itálico</i> usando a tag I (não semantica)</p>
+    <!--Para colocar a tag I, seleciona a parte do texto, CTRL + SHIFT + P, Wrap with Abbreviation, tecla i, enter -->
+    <p>Nessa frase temos um <em>termo em enfâse</em> usando a tag EM (semantica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark style="background-color: aquamarine;">um texto marcado</mark> usando a tag MARK.</p>
+    <!--Para mudar a cor, só em CSS ou usando o style-->
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final</p>
+    <p>Usando só a tag mark sem especificar mas configurado lá no head, o texto fica com marcado com <mark>a cor padrão</mark> configurada</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um texto <big>grande</big> e <small>pequeno</small> nesse parágrafo</p>
+    <h2>Texto excluído/deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também <u>o sublinhado</u> com a tag U (não semantica).</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3
+    </p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo <sub>H2O</sub></p>
+</body>
+
+</html>
